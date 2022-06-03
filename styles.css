@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0 1em;
+    font-family: monospace;
+    font-size: 1.1rem;
+    
+    
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+label {
+    padding: 0;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+input {
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dfdfdf;
+    height: 30px;
+}
+
+
+
+body {
+    background-color: white;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 100vh;
+    
+}
+
+.error-text {
+    padding: 0;
+    font-size: .8rem;
+    color: rgb(185, 10, 10);
+
+}
+
+.divcontainer {
+    width: 800px;
+    margin: 40px auto;
+    background: #00B8D6;
+    color: white;
+    border-radius: 10px;
+    padding: 25px;
+    min-height: 600px;
+    resize: both;
+    overflow: auto;
+    
+}
+
+.formulario {
+    background-color: white;
+    color: #292929;
+    padding: 1.4rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.btn {
+    margin-top: 10px;
+    padding: .3rem;
+    width: 100%;
+    height: 50px;
+    font-size: smaller;
+    border: 2px solid rgb(199, 191, 191);
+    background: #dfdfdf;
+    transform: 1.3;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    border: 2px solid rgb(170, 163, 163);
+    background: rgb(255,255,255);
+    border-radius: 10px;
+}
+
+
+
+
